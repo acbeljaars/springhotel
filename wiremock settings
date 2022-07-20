@@ -1,0 +1,7 @@
+wiremock:
+  server:
+    httpsPort: -1
+
+    JAVA_HOME/jre/lib/security/cacerts
+
+    
