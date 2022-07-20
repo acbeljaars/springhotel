@@ -1,0 +1,4 @@
+-------------------------------------------------------------------------------
+Test set: com.belj.lil.learningspring.LearningSpringApplicationTests
+-------------------------------------------------------------------------------
+Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 7.774 s - in com.belj.lil.learningspring.LearningSpringApplicationTests
