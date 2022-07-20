@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang="en" xmlns:th="http://www.thymeleaf.org">
+<head>
+    <meta charset="UTF-8">
+    <title>Landon Hotelletje: Gastenlijst</title>
+</head>
+<body>
+<h1>Welcome to the Reserverings Pagina</h1>
+<table>
+    <tr>
+        <td>Achternaam</td>
+        <td>E-mail</td>
+    </tr>
+    <tr th:each="guest: ${guests}">
+        <td th:text="${guest.lastName}">Achternaam</td>
+        <td th:text="${guest.emailAddress}">E-mail</td>
+    </tr>
+</table>
+
+</body>
+</html>

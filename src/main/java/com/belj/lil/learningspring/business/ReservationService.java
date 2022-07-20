@@ -18,6 +18,11 @@ public class ReservationService {
         this.reservationRepository = reservationRepository;
     }
 
+    public List<Guest> getGuests(){
+        List<Guest> guests = this.guestRepository.findAll();
+        return guests;
+    }
+
     public List<RoomReservation> getRoomReservationsForDate(Date date) {
         Iterable<Room> rooms = this.roomRepository.findAll();
         Map<Long, RoomReservation> roomReservationMap = new HashMap();

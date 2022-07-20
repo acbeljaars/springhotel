@@ -4,36 +4,12 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="24eb57e3-4aba-4eb1-bf92-d76b35d4fcf7" name="Changes" comment="2nd commit from IntelliJ to github">
-      <change beforePath="$PROJECT_DIR$/target/classes/application.properties" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/belj/lil/learningspring/LearningSpringApplication.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/belj/lil/learningspring/business/ReservationService$1.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/belj/lil/learningspring/business/ReservationService.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/belj/lil/learningspring/business/RoomReservation.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/belj/lil/learningspring/data/Guest.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/belj/lil/learningspring/data/GuestRepository.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/belj/lil/learningspring/data/Reservation.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/belj/lil/learningspring/data/ReservationRepository.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/belj/lil/learningspring/data/Room.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/belj/lil/learningspring/data/RoomRepository.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/belj/lil/learningspring/util/AppStartupEvent.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/belj/lil/learningspring/util/DateUtils.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/belj/lil/learningspring/web/RoomReservationController.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/data.sql" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/schema.sql" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/start_postgres.sh" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/static/index.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/templates/roomres.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/learning-spring-0.0.1-SNAPSHOT.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/learning-spring-0.0.1-SNAPSHOT.jar.original" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/maven-archiver/pom.properties" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/testCompile/default-testCompile/createdFiles.lst" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/testCompile/default-testCompile/inputFiles.lst" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/surefire-reports/TEST-com.belj.lil.learningspring.LearningSpringApplicationTests.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/surefire-reports/com.belj.lil.learningspring.LearningSpringApplicationTests.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/com/belj/lil/learningspring/LearningSpringApplicationTests.class" beforeDir="false" />
+    <list default="true" id="24eb57e3-4aba-4eb1-bf92-d76b35d4fcf7" name="Changes" comment="Delete target">
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/belj/lil/learningspring/web/GuestController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/templates/guests.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/belj/lil/learningspring/business/ReservationService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/belj/lil/learningspring/business/ReservationService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/static/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/static/index.html" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -89,9 +65,18 @@
     "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "WebServerToolWindowFactoryState": "false",
+    "last_opened_file_path": "/Users/FQ74JH/Documents/GitHub/springhotel/src/main/resources/templates",
     "nodejs_package_manager_path": "npm"
   }
 }]]></component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/src/main/resources/templates" />
+    </key>
+    <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="com.belj.lil.learningspring.web" />
+    </key>
+  </component>
   <component name="RunManager">
     <configuration name="LearningSpringApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
       <module name="learning-spring" />
@@ -109,7 +94,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1658344523677</updated>
-      <workItem from="1658344524934" duration="1676000" />
+      <workItem from="1658344524934" duration="2784000" />
     </task>
     <task id="LOCAL-00001" summary="First commit from IntelliJ to github">
       <created>1658344920898</created>
@@ -132,7 +117,14 @@
       <option name="project" value="LOCAL" />
       <updated>1658346093452</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="Delete target">
+      <created>1658346217572</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1658346217572</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -182,6 +174,18 @@
   <component name="VcsManagerConfiguration">
     <MESSAGE value="First commit from IntelliJ to github" />
     <MESSAGE value="2nd commit from IntelliJ to github" />
-    <option name="LAST_COMMIT_MESSAGE" value="2nd commit from IntelliJ to github" />
+    <MESSAGE value="Delete target" />
+    <option name="LAST_COMMIT_MESSAGE" value="Delete target" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/com/belj/lil/learningspring/web/GuestController.java</url>
+          <line>30</line>
+          <option name="timeStamp" value="1" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
   </component>
 </project>
